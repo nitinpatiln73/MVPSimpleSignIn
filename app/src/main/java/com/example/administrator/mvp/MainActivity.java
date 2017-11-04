@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements SigninView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        Comments
         signInPresenter = new SigninPresenterImpl(this);
         signInPresenter.signIn("ni3", "pass");
     }
